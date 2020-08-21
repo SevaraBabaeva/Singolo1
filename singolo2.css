@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+body, html{
+    margin:0;
+    padding:0;
+    font-family: "Lato";
+
+}
+.portfolio{
+    width: 100%;
+    height: 870px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+    justify-content: center;
+    display: flex;
+
+}
+.main {
+    max-width: 1020px;
+    height: 100%;
+    background: transparent;
+    padding: 38px 0;
+}
+.info{
+    margin: 60 px 40 px;
+    position: relative;
+    max-width: 940px
+}
+ .info h2{
+    font-size: 30px;
+    line-height: 18px;
+    font-weight: 900;
+     color: #666d89;
+    margin: 0 0 18px 0;
+}
+.info h3{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+}
+.container{
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+}
+.container ul{
+    display:flex;
+    list-style-type: none;
+    padding: 0 0  0 0;
+    margin-top:-6px;
+
+}
+.container li{
+    padding:1px 6px 1px 6px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    border:1px solid #767e9e;
+    border-radius: 5px;
+    text-align: center;
+}
+.container .select a{
+    color:#dedede;
+    border-color: #c5c5c5;
+}
+.container a{
+    width:10px;
+    color: #767e9e;
+    text-decoration: none;
+}
+.portfolio .picture {
+    margin-top: 20px;
+}
+.portfolio .picture ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 -20px 0 0;
+}
+.portfolio .picture  li {
+    float: left;
+    margin: 0 20px 15px 0;
+    overflow: hidden;
+}
+
+.picture  a:hover img {
+    transform: scale(1.5);
+    opacity: 0.4;
+}
+.portfolio ul {
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.portfolio .container li{
+    display:inline-block;
+    padding: 1px 5px 2px 5px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid #767e9e;
+}
+.portfolio a{
+    font-size: 11px;
+
+}
+.portfolio .picture ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.about-us{
+    width: 100%;
+    height: 728px;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+}
+.about-us .picture{
+    margin-top: 55px;
+}
+.about-us .picture ul li{
+    float: left;
+    margin-right: 21px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.about-us .info h2{
+    color: #666d89;
+}
+.picture ul{
+    list-style-type: none;
+    padding: 0;
+}
+.about-us .icon img{
+    margin-right: 7px;
+}
+.picture .holder h3 p {
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: left;
+}
