@@ -201,3 +201,8 @@ h5.adress {
     display:inline-block;
     margin-top:10px;
 }
+span {
+    content: "\00A9";
+    color: #fdfbfd;
+    text-decoration: none;
+}
